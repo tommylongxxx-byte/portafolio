@@ -6,11 +6,11 @@
 
 .column {
     flex: 1;
-    display: flex;
+    display: flex; 
     border: 2px solid rgb(34, 41, 44);
     border-radius: 8px;
     padding: 25px;
-    flex-direction: column;
+    flex-direction: column; 
     gap: 15px;
     color:aliceblue;
     max-height: 100vh; 
@@ -70,4 +70,9 @@ body {
 .redes-sociales a:hover {
     color: #f1f5f9;
     transform: translateY(-2px)
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
 }
